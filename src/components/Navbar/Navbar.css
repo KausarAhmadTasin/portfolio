@@ -11,6 +11,10 @@
   font-size: 1.6rem;
   cursor: pointer;
 }
+
+.logo .last-name {
+  font-size: 0.8rem;
+}
 .section-list {
   display: flex;
   list-style: none;
