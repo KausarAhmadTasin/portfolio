@@ -49,6 +49,33 @@
   }
 }
 
+.skill-icons {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.skill-icons .react {
+  color: #08d8fe;
+}
+
+.skill-icons .github {
+  color: #1e1c1c;
+}
+
+.skill-icons .javascript {
+  color: #f0dc55;
+}
+
+.skill-icons .css {
+  color: #299cf8;
+}
+
+.skill-icons .html {
+  color: #e95d2a;
+}
+
 .hero-img {
   width: 25rem;
   margin-right: 5rem;
@@ -69,7 +96,7 @@
   }
   70% {
     border-radius: 30% 30% 60% 30%;
-    box-shadow: 0 0 15px 1px rgb(117, 250, 183);
+    box-shadow: 0 0 15px 1px #ecfd7b;
   }
   100% {
     border-radius: 50% 60% 40% 60%;

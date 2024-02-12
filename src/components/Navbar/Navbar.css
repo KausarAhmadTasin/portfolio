@@ -33,7 +33,7 @@
 }
 
 .primary-btn {
-  background-color: #ecfd7b;
+  background-color: #e8ff53;
   border-style: none;
   padding: 0.7rem 1.2rem;
   font-weight: 600;
@@ -45,6 +45,7 @@
   &:hover {
     transform: scale(1.04);
     cursor: pointer;
+    background-color: #ecfd7b;
     box-shadow: #ecfd7b 0px 5px 15px;
   }
 }
