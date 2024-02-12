@@ -1,7 +1,9 @@
 const Navbar = () => {
   return (
     <div>
+      <div className="logo">Kausar Ahmad Tasin</div>
       <ul>
+        <button>Hire Me</button>
         <li>Projects</li>
         <li>About</li>
         <li>Skills</li>
