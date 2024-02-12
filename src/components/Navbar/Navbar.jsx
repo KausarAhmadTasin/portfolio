@@ -1,16 +1,17 @@
+import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div>
+    <nav className="navbar">
       <div className="logo">Kausar Ahmad Tasin</div>
-      <ul>
-        <button>Hire Me</button>
-        <li>Projects</li>
+      <ul className="section-list">
+        <button className="primary-btn">Hire Me</button>
         <li>About</li>
+        <li>Projects</li>
         <li>Skills</li>
         <li>Education</li>
-        <li>Contact Information</li>
+        <li>Contact</li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
