@@ -19,8 +19,14 @@ const HeroSection = () => {
           and CSS. I thrive on turning creative ideas into innovative and
           user-friendly web applications.
         </p>
-        <button className="resume-btn">
-          Resume <FaArrowRight />
+        <button className="primary-btn">
+          <a
+            href="https://drive.google.com/file/d/1sr7vEQUZsPsup_Caz5tNvZWaAvnYRZnr/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume <FaArrowRight />
+          </a>
         </button>
         <div className="skill-icons">
           <div className="react" title="React JS">

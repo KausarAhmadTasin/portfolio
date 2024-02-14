@@ -49,3 +49,11 @@
     box-shadow: #ecfd7b 0px 5px 15px;
   }
 }
+
+.primary-btn a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: inherit;
+}

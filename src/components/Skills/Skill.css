@@ -1,0 +1,95 @@
+.skill-container {
+  padding: 2rem 0;
+}
+
+.skill-content {
+  padding: 2rem 4rem;
+}
+
+.skill-title {
+  text-align: center;
+}
+.skill-flex {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  margin: 2rem 4rem;
+}
+
+.skill-group {
+  display: flex;
+  align-items: center;
+  max-height: 120px;
+}
+
+.skill-group h3 {
+  min-width: 160px;
+}
+.skill-flex li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 6rem;
+}
+
+.skill-flex li img {
+  height: 3rem;
+  margin-bottom: 8px;
+}
+
+.react-skill-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.skill-icon {
+  font-size: 3rem;
+}
+
+/* @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.react-skill {
+  color: #08e5ff;
+  animation: rotate 3s linear infinite; /* Adjust the duration and timing function as needed */
+}
+.javascript-skill {
+  color: #f0dc55;
+}
+
+.css-skill {
+  color: #0974bc;
+}
+
+.html-skill {
+  color: #e5532d;
+}
+
+.bootsrap-skill {
+  color: #5b4380;
+}
+
+.tailwind-skill {
+  color: #3ebff8;
+  margin-left: 6px;
+}
+
+.vscode-skill {
+  color: #0878b8;
+}
+
+.btd-skill {
+  position: relative;
+  top: 15px;
+}
+
+.netlify-skill {
+  color: #0dbfbc;
+}
