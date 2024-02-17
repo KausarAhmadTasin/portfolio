@@ -51,7 +51,7 @@ const HeroSection = () => {
       <div className="hero-img-container  ">
         <img
           className="hero-img bubble-border"
-          src="../../../public/h-img.jpg"
+          src="https://i.ibb.co/cFWhLbk/h-img.jpg"
           alt=""
         />
       </div>

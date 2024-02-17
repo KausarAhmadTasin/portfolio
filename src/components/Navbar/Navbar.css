@@ -4,6 +4,13 @@
   justify-content: space-between;
   padding: 1.2rem 3rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* width: 100vw; */
+  background-color: #ffffff;
+  z-index: 100;
 }
 
 .logo {
@@ -37,6 +44,7 @@
   border-style: none;
   padding: 0.7rem 1.2rem;
   font-weight: 600;
+  border-style: none;
   font-size: 1rem;
   border-radius: 5px;
   /* box-shadow: #ecfd7b 1.95px 1.95px 2.6px; */
@@ -46,7 +54,7 @@
     transform: scale(1.04);
     cursor: pointer;
     background-color: #ecfd7b;
-    box-shadow: #ecfd7b 0px 5px 15px;
+    box-shadow: #c9d37d 0px 5px 15px;
   }
 }
 

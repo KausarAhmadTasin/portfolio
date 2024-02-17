@@ -1,0 +1,98 @@
+.projects-container {
+  margin-bottom: 1rem;
+  padding: 2rem 0;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.project-grid {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 4rem;
+}
+
+.proj-title {
+  margin-bottom: 1rem;
+}
+
+.proj-desc {
+  display: flex;
+}
+.single-proj {
+  width: 35vw;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.proj-heading {
+  margin-bottom: 8px;
+}
+.single-proj img {
+  width: 100%;
+  margin-bottom: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.proj-desc {
+  margin-bottom: 20px;
+}
+
+.proj-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.proj-desc-text {
+  line-height: 22px;
+}
+
+.proj-live-btn {
+  background-color: rgba(123, 247, 85, 0.7);
+  border-style: none;
+  padding: 0.7rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  /* box-shadow: #ecfd7b 1.95px 1.95px 2.6px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  &:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: rgba(155, 247, 127, 0.7);
+    box-shadow: rgba(119, 187, 99, 0.7) 0px 5px 15px;
+  }
+}
+
+.proj-desc-more {
+  padding: 5px 20px;
+  border-radius: 50px; /* Adjust this value to change the curvature of the capsule */
+  background: linear-gradient(to right, #ecfd7b, #b9f9a5);
+  color: #000000; /* Text color */
+  font-size: 0.8rem; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  outline: none;
+  transition: background 0.3s ease;
+  &:hover {
+    background: linear-gradient(to right, #b9f9a5, #ecfd7b);
+  }
+}
+
+.details {
+  display: flex;
+}
+
+.arrow-icon {
+  font-size: 1.9rem;
+  color: #eff789;
+  position: relative;
+  right: 31px;
+}
