@@ -5,6 +5,10 @@
 }
 
 .project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.project-grid {
   margin: 0 auto;
   width: 90%;
   margin-top: 4rem;
@@ -19,9 +23,16 @@
 }
 .single-proj {
   width: 35vw;
+  /* background-color: white; */
   border-radius: 10px;
+  color: rgb(53, 51, 51);
   padding: 1.5rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  &:hover {
+    transform: scale(1.01);
+    /* background-color: #fefff0; */
+  }
 }
 
 .proj-heading {
@@ -29,6 +40,7 @@
 }
 .single-proj img {
   width: 100%;
+  height: 215px;
   margin-bottom: 12px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -59,7 +71,7 @@
   &:hover {
     transform: scale(1.04);
     cursor: pointer;
-    background-color: rgba(155, 247, 127, 0.7);
+    background-color: rgba(181, 252, 159, 0.7);
     box-shadow: rgba(119, 187, 99, 0.7) 0px 5px 15px;
   }
 }
@@ -67,7 +79,7 @@
 .proj-desc-more {
   padding: 5px 20px;
   border-radius: 50px; /* Adjust this value to change the curvature of the capsule */
-  background: linear-gradient(to right, #ecfd7b, #b9f9a5);
+  background: linear-gradient(to right, #ecfd7b, #84bb94);
   color: #000000; /* Text color */
   font-size: 0.8rem; /* Adjust as needed */
   font-weight: bold; /* Adjust as needed */
@@ -82,7 +94,9 @@
   outline: none;
   transition: background 0.3s ease;
   &:hover {
-    background: linear-gradient(to right, #b9f9a5, #ecfd7b);
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: rgba(156, 211, 140, 0.7) 0px 5px 15px;
   }
 }
 
@@ -95,4 +109,8 @@
   color: #eff789;
   position: relative;
   right: 31px;
+}
+
+.details:hover + .arrow-icon {
+  color: #b9f9a5;
 }

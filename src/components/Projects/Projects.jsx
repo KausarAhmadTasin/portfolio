@@ -11,10 +11,10 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <h1 className="skill-title name-span">Projects</h1>
+      <div className="proj-title">
+        <h2>Works that I have done...</h2>
+      </div>
       <div className="project-grid">
-        <div className="proj-title">
-          <h2>Works that I have done...</h2>
-        </div>
         <div className="single-proj">
           <img src="../../../public/h-home.png" alt="" />
           <h2 className="proj-heading">Halal Jibika - Job finding react app</h2>
@@ -28,6 +28,33 @@ const Projects = () => {
               search, updating, deleting, and favoriting job posts. Users can
               also apply for jobs, and only logged-in users have access to view
               their favorite jobs and applied jobs. */}
+              <div className="details">
+                <span onClick={handleReadMore} className="proj-desc-more">
+                  Details
+                </span>
+                <div className="arrow-icon">
+                  <IoIosArrowDroprightCircle />
+                </div>
+              </div>
+            </p>
+          </div>
+          <div className="proj-btns">
+            <button
+              className="primary-btn
+            proj-git-btn"
+            >
+              GitHub Link
+            </button>
+            <button className="proj-live-btn">Live Link</button>
+          </div>
+        </div>
+        <div className="single-proj">
+          <img src="../../../public/todo.png" alt="" />
+
+          <h2 className="proj-heading">Todo React App (Task Manager)</h2>
+          <div className="proj-desc">
+            <p className="proj-desc-text">
+              CRUD operation enabled. React.js, Local Storage, vercel...
               <div className="details">
                 <span onClick={handleReadMore} className="proj-desc-more">
                   Details
