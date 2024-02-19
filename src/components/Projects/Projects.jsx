@@ -39,13 +39,25 @@ const Projects = () => {
             </p>
           </div>
           <div className="proj-btns">
-            <button
-              className="primary-btn
-            proj-git-btn"
+            <a
+              className="link-btn"
+              target="_blank"
+              href="https://github.com/KausarAhmadTasin/halal-jibika"
             >
-              GitHub Link
-            </button>
-            <button className="proj-live-btn">Live Link</button>
+              <button
+                className="primary-btn
+            proj-git-btn"
+              >
+                GitHub Link
+              </button>
+            </a>
+            <a
+              className="link-btn"
+              target="_blank"
+              href="https://halal-jibika-xi.vercel.app/"
+            >
+              <button className="proj-live-btn">Live Link</button>
+            </a>
           </div>
         </div>
         <div className="single-proj">
@@ -66,13 +78,26 @@ const Projects = () => {
             </p>
           </div>
           <div className="proj-btns">
-            <button
-              className="primary-btn
-            proj-git-btn"
+            <a
+              target="_blank"
+              className="link-btn"
+              href="https://github.com/KausarAhmadTasin/task-management-crud"
             >
-              GitHub Link
-            </button>
-            <button className="proj-live-btn">Live Link</button>
+              <button
+                className="primary-btn
+            proj-git-btn"
+              >
+                GitHub Link
+              </button>
+            </a>
+            <a
+              target="_balnk"
+              className="link-btn"
+              href="https://task-management-use-reducer.vercel.app/"
+            >
+              {" "}
+              <button className="proj-live-btn">Live Link</button>
+            </a>
           </div>
         </div>
       </div>

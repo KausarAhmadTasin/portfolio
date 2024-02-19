@@ -58,7 +58,7 @@
   }
 }
 
-.primary-btn a {
+.link-btn {
   display: flex;
   align-items: center;
   gap: 5px;

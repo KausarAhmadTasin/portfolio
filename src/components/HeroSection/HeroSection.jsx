@@ -21,6 +21,7 @@ const HeroSection = () => {
         </p>
         <button className="primary-btn">
           <a
+            className="link-btn"
             href="https://drive.google.com/file/d/1sr7vEQUZsPsup_Caz5tNvZWaAvnYRZnr/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
