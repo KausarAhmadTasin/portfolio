@@ -9,7 +9,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <h1 className="skill-title name-span">Projects</h1>
       <div className="proj-title">
         <h2>Works that I have done...</h2>

@@ -31,6 +31,11 @@
   gap: 3rem;
 }
 
+.section-list a,
+.logo a {
+  color: rgb(71, 69, 69);
+}
+
 .section-list li {
   &:hover {
     color: black;
@@ -39,6 +44,12 @@
   }
 }
 
+.navbar .section-list li a:active {
+  /* Your active link styles here */
+  font-weight: bold;
+  color: red;
+  /* Add any other styles as needed */
+}
 .primary-btn {
   background-color: #e8ff53;
   border-style: none;

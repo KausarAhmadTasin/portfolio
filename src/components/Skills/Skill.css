@@ -1,5 +1,6 @@
 .skill-container {
   padding: 2rem 0;
+  padding-top: 6rem;
   box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.2), 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .skill-content {

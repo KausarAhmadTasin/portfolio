@@ -8,7 +8,7 @@ import { VscGithub } from "react-icons/vsc";
 
 const HeroSection = () => {
   return (
-    <div className="hero-container">
+    <div id="about" className="hero-container">
       <div className="hero-content">
         <h1 className="hero-greetings">
           Hello, <span className="name-span">I'm Kausar,</span>
@@ -19,7 +19,10 @@ const HeroSection = () => {
           and CSS. I thrive on turning creative ideas into innovative and
           user-friendly web applications.
         </p>
-        <button className="primary-btn">Hire Me</button>
+        <a href="/#contact">
+          {" "}
+          <button className="primary-btn">Hire Me</button>
+        </a>
         <div className="skill-icons">
           <div className="react" title="React JS">
             <FaReact />

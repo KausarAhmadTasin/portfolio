@@ -10,7 +10,7 @@ import { IoCodeSlashSharp } from "react-icons/io5";
 import { SiNetlify } from "react-icons/si";
 const Skills = () => {
   return (
-    <div className="skill-container">
+    <div id="skills" className="skill-container">
       <h1 className="name-span skill-title">Skills</h1>
       <div className="skill-content">
         <div className="skill-group">
@@ -46,7 +46,7 @@ const Skills = () => {
             <li>
               {" "}
               <div>
-                <img src="../../../public/api.png" alt="" />
+                <img src="https://i.ibb.co/cTMkMGM/api.webp" alt="" />
               </div>
               Handling REST APIs
             </li>
@@ -58,7 +58,7 @@ const Skills = () => {
             <li>
               {" "}
               <div>
-                <img src="../../../public/firebase.png" alt="" />
+                <img src="https://i.ibb.co/rZzgjYX/firebase.png" alt="" />
               </div>{" "}
               Firebase
             </li>
@@ -112,7 +112,7 @@ const Skills = () => {
 
             <li>
               {" "}
-              <img src="../../../public/figma.png" alt="" />
+              <img src="https://i.ibb.co/dBmQbGg/figma.png" alt="" />
               Figma
             </li>
 

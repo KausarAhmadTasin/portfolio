@@ -3,7 +3,7 @@ import { FcGraduationCap } from "react-icons/fc";
 
 const Education = () => {
   return (
-    <div className="edu-container">
+    <div id="education" className="edu-container">
       <h1 className="skill-title name-span education-titile">Education</h1>
       <div className="single-edication">
         <p className="edu-title">
