@@ -31,9 +31,12 @@
   gap: 3rem;
 }
 
-.section-list a,
-.logo a {
+.section-list a {
   color: rgb(71, 69, 69);
+}
+
+.logo a {
+  color: black;
 }
 
 .section-list li {
