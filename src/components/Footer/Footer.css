@@ -1,0 +1,52 @@
+.footer-container {
+  background-color: #e7e6ea;
+  padding: 3rem;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+}
+
+.single-contact {
+  display: flex;
+  gap: 6px;
+}
+
+.footer-icons {
+  display: flex;
+  font-size: 2rem;
+  gap: 20px;
+}
+
+.single-contact {
+  margin-bottom: 10px;
+}
+
+.single-contact a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: 500;
+}
+
+.linkedIn-icon {
+  color: #007ab5;
+}
+
+.quick-links h2 {
+  margin-bottom: 20px;
+}
+
+.footer-rights {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.git-icon {
+  color: #353333;
+}

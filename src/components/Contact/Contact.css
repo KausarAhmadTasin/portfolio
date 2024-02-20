@@ -1,0 +1,32 @@
+.contact-container {
+  margin: 2rem auto;
+}
+
+#contact-info {
+  width: 86%;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 1rem;
+  line-height: 2.5rem;
+}
+
+.info-name {
+  min-width: 6rem;
+}
+
+.single-info {
+  display: flex;
+}
+
+/* .single-info p {
+  font-weight: bold;
+} */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(82, 82, 218);
+}
+a:hover {
+  color: red;
+}
