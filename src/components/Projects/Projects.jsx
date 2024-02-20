@@ -31,14 +31,14 @@ const Projects = () => {
               search, updating, deleting, and favoriting job posts. Users can
               also apply for jobs, and only logged-in users have access to view
               their favorite jobs and applied jobs. */}
-              <div className="details">
+              {/* <div className="details">
                 <span onClick={handleReadMore} className="proj-desc-more">
                   Details
                 </span>
                 <div className="arrow-icon">
                   <IoIosArrowDroprightCircle />
                 </div>
-              </div>
+              </div> */}
             </p>
           </div>
           <div className="proj-btns">
@@ -70,14 +70,14 @@ const Projects = () => {
           <div className="proj-desc">
             <p className="proj-desc-text">
               CRUD operation enabled. React.js, Local Storage, vercel...
-              <div className="details">
+              {/* <div className="details">
                 <span onClick={handleReadMore} className="proj-desc-more">
                   Details
                 </span>
                 <div className="arrow-icon">
                   <IoIosArrowDroprightCircle />
                 </div>
-              </div>
+              </div> */}
             </p>
           </div>
           <div className="proj-btns">
