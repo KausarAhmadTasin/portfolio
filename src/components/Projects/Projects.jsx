@@ -16,7 +16,10 @@ const Projects = () => {
       </div>
       <div className="project-grid">
         <div className="single-proj">
-          <img src="../../../public/h-home.png" alt="" />
+          <img
+            src="https://i.ibb.co/CzmK81g/Screenshot-2024-02-10-195445.png"
+            alt=""
+          />
           <h2 className="proj-heading">Halal Jibika - Job finding react app</h2>
           <div className="proj-desc">
             <p className="proj-desc-text">
@@ -61,7 +64,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="single-proj">
-          <img src="../../../public/todo.png" alt="" />
+          <img src="https://i.ibb.co/d0cnBhf/todo.png" alt="" />
 
           <h2 className="proj-heading">Todo React App (Task Manager)</h2>
           <div className="proj-desc">
