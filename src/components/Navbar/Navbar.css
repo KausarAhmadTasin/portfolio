@@ -44,12 +44,6 @@
   }
 }
 
-.navbar .section-list li a:active {
-  /* Your active link styles here */
-  font-weight: bold;
-  color: red;
-  /* Add any other styles as needed */
-}
 .primary-btn {
   background-color: #e8ff53;
   border-style: none;
