@@ -21,6 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="shortcut icon"
+          href="https://i.ibb.co.com/cFWhLbk/h-img.jpg"
+        />
+      </head>
       <body
         className={`${geistSans.variable} bg-[#030712] ${geistMono.variable} antialiased`}
       >
