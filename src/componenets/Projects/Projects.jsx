@@ -44,7 +44,10 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="py-12 px-6 mt-14 bg-gray-900">
+    <div
+      id="projects"
+      className="container mx-auto py-12 px-6 mt-14 bg-gray-900"
+    >
       <Title>My Projects</Title>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 md:mt-14 gap-8">

@@ -3,7 +3,10 @@ import Title from "../shared/Titile/Title";
 
 const Education = () => {
   return (
-    <section id="education" className="py-12 md:container mx-2 md:mx-auto">
+    <section
+      id="education"
+      className="py-12 mt-14 md:container mx-2 md:mx-auto"
+    >
       <Title>Education</Title>
       <div className="mt-10 px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
