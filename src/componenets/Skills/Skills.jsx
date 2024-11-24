@@ -122,9 +122,9 @@ const Skills = () => {
   };
 
   return (
-    <div id="skills" className="container mx-auto mt-28">
+    <div id="skills" className="container mx-2 md:mx-auto mt-28">
       <Title>Skills</Title>
-      <div className="tabs flex justify-center space-x-4 mt-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 gap-3 mx-4 md:mx-0 justify-center md:space-x-4 mt-10">
         {["all", "expertise", "comfortable", "familiar", "tools"].map((tab) => (
           <button
             key={tab}
@@ -139,7 +139,7 @@ const Skills = () => {
           </button>
         ))}
       </div>
-      <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-8">
+      <div className="mt-8 grid grid-cols-4 mx-4 md:mx-0 md:grid-cols-5 lg:grid-cols-8 gap-8">
         {getSkillsByTab().map((skill, index) => (
           <div
             key={index}
