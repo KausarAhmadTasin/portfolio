@@ -9,8 +9,12 @@ const Navbar = () => {
 
   const navItems = [
     {
-      itemName: "About",
-      itemPath: "/#about",
+      itemName: "Home",
+      itemPath: "/#homes",
+    },
+    {
+      itemName: "About Me",
+      itemPath: "/#aboutMe",
     },
     {
       itemName: "Skills",
@@ -36,8 +40,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full fixed shadow-sm z-50 bg-[#030712] shadow-[#66ec97]">
-      <div className="lg:container mx-5 my-4 lg:mx-auto flex justify-between items-center">
+    <nav className="w-full fixed shadow-sm z-50 bg-[#030712] text-white shadow-[#66ec97]">
+      <div className="lg:container lg:mx-auto lg:px-10 mx-5 my-4 flex justify-between items-center">
         <div>
           <p className="cursor-pointer text-2xl">
             Kausar<span className="text-xs">Ahmad Tasin</span>
