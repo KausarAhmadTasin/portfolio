@@ -34,10 +34,10 @@ const Banner = () => {
     //   </div>
 
     // </section>
-    <section id="home" className="container mx-auto md:mb-10">
+    <section id="home" className="lg:container lg:mx-auto mx-4 md:mb-10">
       <div>
         <div className="text-center animate__animated animate__fadeInUp">
-          <p className="md:text-5xl mt-10 md:mt-0 text-4xl">
+          <p className="md:text-5xl lg:mt-10 md:mt-4 mt-2 text-4xl">
             {" "}
             Hello,{" "}
             <span className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r via-lime-300 to-lime-500 from-[#66ec97]">
@@ -45,7 +45,7 @@ const Banner = () => {
             </span>
           </p>
           <p className="md:text-3xl text-2xl mt-6">Web Developer</p>
-          <p className="mt-8 w-4/5 text-lg mx-auto">
+          <p className="mt-8 lg:w-4/5 text-lg mx-auto">
             I am a dedicated and passionate full-stack web developer with
             hands-on experience in building scalable and dynamic web
             applications. With a strong foundation in technologies like

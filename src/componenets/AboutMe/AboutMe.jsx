@@ -16,13 +16,13 @@ const AboutMe = () => {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   return (
-    <div id="aboutMe" className="container mx-auto mt-32">
+    <div id="aboutMe" className="container mx-auto lg:mt-16 mt-12">
       <Title>About Me</Title>
-      <div className="flex gap-x-20 items-center justify-center mt-20">
+      <div className="flex flex-col lg:flex-row gap-x-20 gap-y-8 items-center justify-center mt-5 lg:mt-16">
         <div className="">
           <Carousel
             plugins={[plugin.current]}
-            className="w-full max-w-xs"
+            className="lg:w-full mx-auto max-w-[70%] lg:max-w-xs"
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
           >
@@ -60,7 +60,7 @@ const AboutMe = () => {
             <CarouselNext className="text-black" />
           </Carousel>
         </div>
-        <div className="w-2/3">
+        <div className="lg:w-2/3 w-full px-4 lg:px-0">
           <p>
             <span className="block">
               I’m <span className="text-[#66ec97]">Kausar Ahmad Tasin</span>, a{" "}
