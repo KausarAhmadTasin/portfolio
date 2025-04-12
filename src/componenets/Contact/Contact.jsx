@@ -90,7 +90,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_redirect"
-            value="http://localhost:3000/thankYou"
+            value="https://kausarahmadtasin-portfolio.vercel.app/thankYou"
           />
           <button
             type="submit"
