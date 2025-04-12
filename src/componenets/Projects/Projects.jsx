@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="container mx-auto py-12 px-6 mt-14 bg-gray-900"
+      className="container mx-auto scroll-mt-16 py-12 px-6 mt-14 bg-gray-900"
     >
       <Title>My Projects</Title>
 

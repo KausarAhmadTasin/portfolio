@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-16 mt-12 md:container mx-4 md:mx-auto"
+      className="py-16 scroll-mt-16 mt-12 md:container mx-4 md:mx-auto"
     >
       <div className="lg:pb-6">
         <Title>Education</Title>

@@ -16,7 +16,7 @@ const AboutMe = () => {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   return (
-    <div id="aboutMe" className="container mx-auto lg:mt-8">
+    <div id="aboutMe" className="container scroll-mt-24  mx-auto lg:mt-8">
       <Title>About Me</Title>
       <div className="flex flex-col lg:flex-row gap-x-20 gap-y-8 items-center justify-center mt-5 lg:mt-16">
         <div className="">

@@ -3,7 +3,7 @@ import Title from "../shared/Titile/Title";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 md:container mx-auto">
+    <section id="contact" className="py-16 scroll-mt-16 md:container mx-auto">
       <Title>Contact Me</Title>
 
       <div className="mt-12 flex flex-col md:flex-row gap-10 bg-[#1E293B] rounded-xl p-8 shadow-lg max-w-7xl mx-auto">

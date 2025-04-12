@@ -10,19 +10,23 @@ const Navbar = () => {
   const navItems = [
     {
       itemName: "Home",
-      itemPath: "/#homes",
+      itemPath: "/#home",
     },
     {
       itemName: "About Me",
       itemPath: "/#aboutMe",
     },
     {
-      itemName: "Skills",
-      itemPath: "/#skills",
+      itemName: "Experience",
+      itemPath: "/#experience",
     },
     {
       itemName: "Projects",
       itemPath: "/#projects",
+    },
+    {
+      itemName: "Skills",
+      itemPath: "/#skills",
     },
     {
       itemName: "Education",
@@ -43,9 +47,13 @@ const Navbar = () => {
     <nav className="w-full fixed shadow-sm z-50 bg-[#030712] text-white shadow-[#66ec97]">
       <div className="lg:container lg:mx-auto lg:px-10 mx-5 my-4 flex justify-between items-center">
         <div>
-          <p className="cursor-pointer text-2xl">
-            Kausar<span className="text-xs">Ahmad Tasin</span>
-          </p>
+          {" "}
+          <a href="#home">
+            {" "}
+            <p className="cursor-pointer text-2xl">
+              Kausar<span className="text-xs">Ahmad Tasin</span>
+            </p>
+          </a>
         </div>
 
         {/* Large screen nav links */}
@@ -87,39 +95,41 @@ const Navbar = () => {
       </div>
 
       {/* Drawer content (for smaller screens) */}
-      {isDrawerOpen && (
-        <div className="lg:hidden duration-200 bg-[#030712] w-full p-5 shadow-md shadow-[#66ec97]">
-          <ul className="flex flex-col items-start gap-y-4">
-            {navItems.map((item) => (
-              <a
-                onClick={() => {
-                  setPath(item.itemPath);
-                  setIsDrawerOpen(false); // Close drawer after selection
-                }}
-                className={`hover:text-[#66ec97] duration-200 ${
-                  path === item.itemPath
-                    ? "text-[#66ec97] underline-offset-2 underline"
-                    : "text-gray-300"
-                }`}
-                href={item.itemPath}
-                key={item.itemName}
-              >
-                {item.itemName}
-              </a>
-            ))}
-
+      <div
+        className={`lg:hidden absolute top-16 right-0 w-2/3 bg-[#030712] z-40 p-5 shadow-md shadow-[#66ec97] transform transition-transform duration-3  00 ${
+          isDrawerOpen ? "translate-y-0" : "-translate-y-[35rem]"
+        }`}
+      >
+        <ul className="flex flex-col items-start gap-y-4 ">
+          {navItems.map((item) => (
             <a
-              href="https://drive.google.com/file/d/1sr7vEQUZsPsup_Caz5tNvZWaAvnYRZnr/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={() => {
+                setPath(item.itemPath);
+                setIsDrawerOpen(false); // Close drawer after selection
+              }}
+              className={`hover:text-[#66ec97] duration-200 ${
+                path === item.itemPath
+                  ? "text-[#66ec97] underline-offset-2 underline"
+                  : "text-gray-300"
+              }`}
+              href={item.itemPath}
+              key={item.itemName}
             >
-              <button className="flex button border-[#66ec97] hover:bg-black shadow-md  shadow-[#66ec97] hover:border-[#66ec97] bg-[#66ec97] text-black hover:text-[#66ec97] px-3 py-2 rounded-lg font-medium duration-200 mt-4 items-center gap-x-2">
-                Resume <RxExternalLink className="text-lg" />
-              </button>
+              {item.itemName}
             </a>
-          </ul>
-        </div>
-      )}
+          ))}
+
+          <a
+            href="https://drive.google.com/file/d/1sr7vEQUZsPsup_Caz5tNvZWaAvnYRZnr/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex button border-[#66ec97] hover:bg-black shadow-md  shadow-[#66ec97] hover:border-[#66ec97] bg-[#66ec97] text-black hover:text-[#66ec97] px-3 py-2 rounded-lg font-medium duration-200 mt-4 items-center gap-x-2">
+              Resume <RxExternalLink className="text-lg" />
+            </button>
+          </a>
+        </ul>
+      </div>
     </nav>
   );
 };

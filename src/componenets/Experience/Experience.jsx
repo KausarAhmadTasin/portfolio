@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="lg:py-12 py-8 px-4 md:px-8 lg:px-24 bg-[#0a0e17] text-white w-full mt-16"
+      className="lg:py-12 scroll-mt-16 py-8 px-4 md:px-8 lg:px-24 bg-[#0a0e17] text-white w-full mt-16"
     >
       <div className="mx-auto mb-8">
         {" "}

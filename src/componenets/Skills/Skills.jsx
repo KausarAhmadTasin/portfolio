@@ -122,7 +122,7 @@ const Skills = () => {
   };
 
   return (
-    <div id="skills" className="container mx-2 md:mx-auto mt-28">
+    <div id="skills" className="container mx-2 scroll-mt-20  md:mx-auto mt-28">
       <Title>Skills</Title>
       <div className="grid md:grid-cols-5 grid-cols-2 gap-3 mx-4 md:mx-0 justify-center md:space-x-4 mt-10">
         {["all", "expertise", "comfortable", "familiar", "tools"].map((tab) => (

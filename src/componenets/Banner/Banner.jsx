@@ -36,7 +36,7 @@ const Banner = () => {
     // </section>
     <section
       id="home"
-      className="relative mx-auto overflow-hidden lg:h-[550px]"
+      className="relative mx-auto scroll-mt-16 pt-4  overflow-hidden lg:h-[550px]"
     >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#6DEB8D] opacity-20 rounded-full blur-[120px] z-0" />
       <div>
