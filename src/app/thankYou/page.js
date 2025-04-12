@@ -1,6 +1,6 @@
-import React from "react";
+"use client";
+import Link from "next/link";
 import { CheckCircle } from "lucide-react";
-import { Link } from "react-router-dom"; // Remove this line if using Next.js and use `next/link` instead
 
 const ThankYou = () => {
   return (
@@ -13,7 +13,7 @@ const ThankYou = () => {
           soon as possible.
         </p>
         <Link
-          to="/"
+          href="/"
           className="inline-block bg-green-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition"
         >
           Go Back Home
