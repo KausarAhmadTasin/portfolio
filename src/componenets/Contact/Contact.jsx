@@ -10,7 +10,7 @@ const Contact = () => {
         {/* Contact Info */}
         <div className="md:w-1/2 space-y-6 text-gray-300">
           <h3 className="text-2xl font-semibold text-green-400">
-            Let's Connect
+            Let&apos;s Connect
           </h3>
           <p>
             Email:{" "}
