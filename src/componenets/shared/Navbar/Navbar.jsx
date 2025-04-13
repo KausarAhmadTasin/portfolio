@@ -120,7 +120,7 @@ const Navbar = () => {
           ))}
 
           <a
-            href="https://drive.google.com/file/d/1sr7vEQUZsPsup_Caz5tNvZWaAvnYRZnr/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1ysjzK5BHUdE2QhmDJvTaPQV68MOvIRvO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
