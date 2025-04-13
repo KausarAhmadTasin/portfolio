@@ -42,13 +42,13 @@ const Banner = () => {
       <div>
         <div className="lg:container lg:mx-auto mx-4 md:mb-10 pt-24 pb-10 lg:py-20">
           <div className="text-center animate__animated animate__fadeInUp">
-            <p className="md:text-5xl lg:mt-10 md:mt-4 mt-2 text-4xl">
+            <h1 className="md:text-5xl lg:mt-10 md:mt-4 mt-2 text-4xl">
               {" "}
               Hello,{" "}
               <span className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r via-lime-300 to-lime-500 from-[#66ec97]">
                 I&apos;m Kausar Ahmad Tasin,
               </span>
-            </p>
+            </h1>
             <p className="md:text-3xl text-2xl mt-6">Web Developer</p>
             <p className="mt-8 lg:w-4/5 text-lg mx-auto">
               I am a dedicated and passionate full-stack web developer with
